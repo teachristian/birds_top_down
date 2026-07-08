@@ -1,5 +1,11 @@
+#################################
 ##### Guild Regression Model ####
 #################################
+
+# The following script uses the data file 'BirdsTopDown_BreedingGuild.csv'
+# uploaded at 10.5281/zenodo.21266745 to recreate the bayesian linear regression
+# from the manuscript 'Bird richness and abundance suppress 
+# invasive insect pests in forests in the eastern United States' 
 
 library(tidyverse)
 library(tidybayes)
@@ -194,7 +200,7 @@ l <- loo_compare(model_0, model_1,model_2, model_4,model_5,
 #Model 4 that includes habitat but does not include an interaction effect. What
 # I learned form the models that included all the habitat is that breeding habitat
 # does have effect on the structural metric. What  I ended up deciding to do was
-#to seperate out the habitat types because
+#to separate out the habitat types because
 # what we wanted is to compare the estimates on the specific parameter.
 
 
