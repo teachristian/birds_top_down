@@ -2,7 +2,7 @@
 ##### Guild Regression Model ####
 #################################
 
-# The following script uses the data file 'BirdsTopDown_BreedingGuild.csv'
+# The following script uses the data file 'BirdsTopDown_BirdGuild.csv'
 # uploaded at 10.5281/zenodo.21266745 to recreate the bayesian linear regression
 # from the manuscript 'Bird richness and abundance suppress 
 # invasive insect pests in forests in the eastern United States' 
