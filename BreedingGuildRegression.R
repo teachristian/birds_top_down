@@ -77,7 +77,7 @@ test_grassland <- tree_insect_bird_merged %>% filter(habitat_A =='grassland')  %
 # as the linear model below. 
 
 
-model_1 <-  brm(data = tree_insect_bird_merged,
+model_1 <-  brms::brm(data = tree_insect_bird_merged,
                 family = gaussian(),
                 formula = bf(log_bird_abundance ~ 1 + bird_richness_centered),
                 prior = c(prior(normal(0, 10), class = Intercept),
