@@ -10,7 +10,7 @@
 library(piecewiseSEM) 
 library(tidyverse)
 
-source('MECLabRepo/scripts/birds_tree_diversity/multigroup.R')
+source('multigroup.R')
 tree_insect_bird_merged <- read_csv('BirdsTopDown_Overall.csv')
 
 
