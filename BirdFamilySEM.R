@@ -3,7 +3,7 @@
 ################################################
 
 # The following script uses the data file 'BirdsTopDown_BirdFamily.csv'
-# uploaded at 10.5281/zenodo.21266745 to recreate the SEM 
+# uploaded at 10.5281/zenodo.21266745 to recreate the PSEM 
 # within bird family from the manuscript 'Bird richness and abundance suppress 
 # invasive insect pests in forests in the eastern United States' 
 
